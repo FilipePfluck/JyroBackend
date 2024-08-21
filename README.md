@@ -1,15 +1,15 @@
-# Elysia with Bun runtime
-
 ## Getting Started
-To get started with this template, simply paste this command into your terminal:
-```bash
-bun create elysia ./elysia-example
-```
 
-## Development
-To start the development server run:
-```bash
-bun run dev
-```
+Make sure you have bun installed: https://bun.sh/
 
-Open http://localhost:3000/ with your browser to see the result.
+Make sure you have docker and doker-compose installed: 
+https://www.docker.com/ 
+https://github.com/docker/compose
+
+Create a .env file following the example found in .env.example. Ask for the variables on the Discord Server
+
+Run `sudo docker compose-up -d` to start the docker container
+
+Run `bun dev` to start the http server
+
+Run `bun prisma studio` to open Prisma Studio on your browser
